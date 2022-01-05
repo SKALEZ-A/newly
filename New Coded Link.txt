@@ -1,0 +1,2 @@
+Do responsive javascript 
+Use favicon at the beginning

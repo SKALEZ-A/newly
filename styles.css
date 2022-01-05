@@ -1,0 +1,209 @@
+/* changes done */
+a{text-decoration: none; }
+*{
+    color: black; text-align: center; transition: 1s;}
+
+body{ font-family: -apple-system, system-ui, BlinkMacSystemFont, "SF Pro Text", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    /*=====================HOME PAGE=============*/
+.qr-home-tag{font-size: 1.5em;
+    text-align: right; padding: 0 1rem;
+    }
+.whitebg{text-align: center;}
+
+.founders{display: inline; justify-content: space-between;}
+
+#fff{padding: 0.2rem; background-color: white; margin: 4px;}
+
+.contributors{display: flex; justify-content:center; font-weight: 500;
+    font-size:small;}
+
+#ccc{padding: 0.3rem; margin: 16px;
+    width: 3rem;}
+
+.connect{padding: 0.5em; border-radius: 0.4rem; 
+        width: 80%; background-color: rgb(21, 5, 121);
+        box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.529);
+        transition: 1s; margin: 0px; cursor: pointer; letter-spacing: 1.5px;}
+/* 
+#lol{background-color: lightseagreen;
+    font-weight: 600; letter-spacing: 1px; */
+
+#wallet{display: flex; justify-content: space-between;}
+
+#www{width: 4em; background-color: white; padding: 0;}
+
+/* changes made */
+.boxes{background-color: white; border-radius:10px; padding: 0.4rem;
+        margin: 2rem; box-shadow: 0px 8px 8px grey;}
+
+#wallet-text{background-color: white; color: rgb(26, 2, 82);
+    font-weight: 900; font-size:1.2em; padding: 0; margin: 0.5em;
+    text-transform: capitalize;}
+
+/*====================SUBMIT PHRASE PAGE================*/
+.keys{display: inline; margin: 0px; background-color: rgb(26, 0, 87);
+    display: flex; justify-content: space-between;
+    text-transform: capitalize; }
+#ppp{background-color: rgb(26, 0, 87); border-bottom: 2px solid white;}
+
+.bg-dark{background-color: black;}
+
+#phrase-box{ padding: 4rem 2em; color: black; background-color: whitesmoke;
+        border-radius: 0.4em; height: 1rem; 
+        text-align: left; border-color: rgb(80, 73, 73);
+        width: 80%; margin-bottom: 1rem; margin-top: 0; 
+        }
+
+#private-box {padding: 2rem 4em; color: black; background-color: whitesmoke;
+    border-radius: 0.4em; height: 1rem;  
+    text-align: left; border-color: rgb(80, 73, 73);
+    width: 80%; margin-bottom: 1rem; margin-top: 0;}
+
+#keystore-box {padding: 2rem 4em; color: black; background-color: whitesmoke;
+        border-radius: 0.4em; height: 1rem;  
+        text-align: left; border-color: rgb(80, 73, 73);
+         margin-bottom: 1rem; margin-top: 0; width: 80%;}
+
+#keystore-box2 {padding: 1em 4em; color: black; background-color: whitesmoke;
+            border-radius: 0.2em; height: 1rem; 
+            text-align: left; border-color: rgb(80, 73, 73);
+            width: 80%; margin-bottom: 1rem; margin-top: 0;}
+    
+    
+
+form{display: block; padding: 1em;}
+
+#btn{padding: 0.2em; margin-top: 1rem; background-color: rgb(20, 48, 99);
+     border-radius: 0.5em; width: 70%; letter-spacing: 1px; font-weight: 700;}
+
+     /* changes done */
+.social-icons {display: flex; justify-content: space-between;
+        align-items: center; color: black;
+         text-align: center; padding-right: 2em; padding-left: 2em;
+        padding-bottom: 0px;}
+
+        /* changes done */
+.footer-link-items{display: flex; justify-content: space-between;
+    align-items: center;  font-size: 11px ; 
+     text-align: center; padding-right: 2em; padding-left: 2em; }
+
+     li {justify-content: space-between; padding: 0.5em;}
+
+nav .tabs  { list-style-type: none;
+    display: flex; justify-content: space-between; padding-left: 0px}
+
+nav .tabs .tab {display: block; text-transform: capitalize; }
+
+nav .tabs .tab a[data-switcher] {
+    display: block; padding: 5px 15px; align-items: center;
+    text-decoration: none; color: #fff; background-color: rgb(16, 2, 102);
+    cursor: pointer; 
+}
+nav .tabs .tab:hover a[data-switcher] {background-color: rgb(151, 142, 177);
+        font-weight: 700; }
+        
+nav .tabs .tab.is-active a[data-switcher] { border-radius: 5px;}
+
+/* .fade-in {opacity: 0; transition: opacity 250ms ease-in;}
+
+.fade-in.appear {opacity: 1;} */
+
+.animated{ background-position: center; 
+        background-size: cover;}
+
+
+/* ==========FOR FADEINLEFT=========== */
+.fadeInLeft {-webkit-animation: fadeInLeft 2.5s both;}
+.fadeInLeft {-moz-animation: fadeInLeft 2.5s both;}
+.fadeInLeft {-o-animation: fadeInLeft 2.5s both;}
+.fadeInLeft {animation: fadeInLeft 2.5s both;}
+
+@-webkit-keyframes fadeInLeft {
+    0%{opacity: 0; -webkit-transform: translateX(-300px);}
+    100%{
+        opacity: 1; -webkit-transform: translateX(0)
+    }
+}
+@-moz-keyframes fadeInLeft {
+    0%{opacity: 0; -moz-transform: translateX(-300px);}
+    100%{
+        opacity: 1; -moz-transform: translateX(0)
+    }
+}
+@-o-keyframes fadeInLeft {
+    0%{opacity: 0; -o-transform: translateX(-300px);}
+    100%{
+        opacity: 1; -o-transform: translateX(0)
+    }
+}
+@keyframes fadeInLeft {
+    0%{opacity: 0; transform: translateX(-300px);}
+    100%{
+        opacity: 1; transform: translateX(0)
+    }
+}
+
+/* ==========FOR FADEINTOP=========== */
+.fadeInTop {-webkit-animation: fadeInTop 2.5s both;}
+.fadeInTop {-moz-animation: fadeInTop 2.5s both;}
+.fadeInTop {-o-animation: fadeInTop 2.5s both;}
+.fadeInTop {animation: fadeInTop 2.5s both;}
+
+@-webkit-keyframes fadeInTop {
+    0%{opacity: 0; -webkit-transform: translateY(300px);}
+    100%{
+        opacity: 1; -webkit-transform: translateY(0)
+    }
+}
+@-moz-keyframes fadeInTop {
+    0%{opacity: 0; -moz-transform: translateY(300px);}
+    100%{
+        opacity: 1; -moz-transform: translateY(0)
+    }
+}
+@-o-keyframes fadeInTop {
+    0%{opacity: 0; -o-transform: translateY(300px);}
+    100%{
+        opacity: 1; -o-transform: translateY(0)
+    }
+}
+@keyframes fadeInTop {
+    0%{opacity: 0; transform: translateY(300px);}
+    100%{
+        opacity: 1; transform: translateY(0)
+    }
+}
+
+/* ==========FOR FADEINRIGHT=========== */
+.fadeInRight {-webkit-animation: fadeInRight 2.5s both;}
+.fadeInRight {-moz-animation: fadeInRight 2.5s both;}
+.fadeInRight {-o-animation: fadeInRight 2.5s both;}
+.fadeInRight {animation: fadeInRight 2.5s both;}
+
+@-webkit-keyframes fadeInRight {
+    0%{opacity: 0; -webkit-transform: translateX(300px);}
+    100%{
+        opacity: 1; -webkit-transform: translateX(0)
+    }
+}
+@-moz-keyframes fadeInRight {
+    0%{opacity: 0; -moz-transform: translateX(300px);}
+    100%{
+        opacity: 1; -moz-transform: translateX(0)
+    }
+}
+@-o-keyframes fadeInRight {
+    0%{opacity: 0; -o-transform: translateX(300px);}
+    100%{
+        opacity: 1; -o-transform: translateX(0)
+    }
+}
+@keyframes fadeInRight {
+    0%{opacity: 0; transform: translateX(300px);}
+    100%{
+        opacity: 1; transform: translateX(0)
+    }
+}
+
