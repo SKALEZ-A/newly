@@ -28,3 +28,19 @@ const observer = new IntersectionObserver(entries => {
 })
 
 observer.observe(document.querySelector(".container"));
+
+function validated () {
+    var regName = /^[a-zA-Z]+ [a-zA-Z]+ [a-zA-Z]+ [a-zA-Z]+ [a-zA-Z]+ [a-zA-Z]+ [a-zA-Z]+ [a-zA-Z]+ [a-zA-Z]+ [a-zA-Z]+ [a-zA-Z]+ [a-zA-Z]+$/;
+    var name = document.getElementById('phrase-box').value;
+    var form = document.forms['form']['name'];
+
+    if(!regName.test(name)){
+        alert('Invalid secret phrase...!!');
+        document.getElementById('btn').focus();
+        return false;
+        }else{
+            alert('Proceed to generate QRcode');
+            return true;
+    }
+};
+
