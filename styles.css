@@ -207,3 +207,9 @@ nav .tabs .tab.is-active a[data-switcher] { border-radius: 5px;}
     }
 }
 
+@media screen and (min-width:650px){
+    .wallets{
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+    }
+}
